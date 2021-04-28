@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: pokemon;
+}
+
+@font-face {
+    font-family: pokemon ;
+    src: url('sources/pokemonFont.ttf');
+}
+
+html,body{
+    height: 100%;
+}
+
+.center{
+    max-width: 1280px;
+    padding: 0 2%;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.pokemonDisplay{
+    width: 100%;
+    max-height: 350px;
+}
+
+.pokedexCanvas{
+    width: 50%;
+    height: 350px;
+    border: 2px solid #ccc;
+    float: left;
+}
+
+.pokemonInfo{
+    width: 40%;
+
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.clear{
+    clear: both;
+}
+
+.pokeballUp{
+    width: 100%;
+    height: 10%;
+}
+
+.imgPokemon{
+    width: 100%;
+    height: 70%;
+    text-align: center;
+}
+
+.imgPokemon img{
+    width: 240px;
+    height: 240px;
+    object-fit: fill;
+}
+.pokeballDown{
+    height: 10%;
+    width: 100%;
+}
+
+.pokeballUp img:nth-of-type(1){
+    float: left;
+}
+.pokeballUp img:nth-of-type(2){
+    float: right;
+}
+.pokeballDown img:nth-of-type(1){
+    float: left;
+}
+.pokeballDown img:nth-of-type(2){
+    float: right;
+}
+
+.pokemonInfo .info{
+    margin-top: 20px;
+}
+
+.pokemonInfo .info h3{
+    display: inline-block;
+}
+
+.pokemonLista{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.pokeCard{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #ccc;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.pokeCard:nth-of-type(1){
+    display: none;
+}
+
+.pokeCard h3{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.pokeCardInfo{
+    width: 100%;
+    height: 72%;
+}
+
+
