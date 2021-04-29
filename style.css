@@ -36,10 +36,8 @@ html,body{
 
 .pokemonInfo{
     width: 40%;
-
     float: left;
     margin-left: 50px;
-    margin-top: 50px;
     text-align: justify;
 }
 
@@ -83,6 +81,16 @@ html,body{
 
 .pokemonInfo .info{
     margin-top: 20px;
+    display: none;
+}
+
+.pokemonInfo .info2{
+    margin-top: 20px;
+    display: none;
+}
+
+.pokemonInfo .info2 h3{
+    display: inline-block;
 }
 
 .pokemonInfo .info h3{
