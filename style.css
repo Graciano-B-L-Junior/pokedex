@@ -127,3 +127,28 @@ html,body{
 }
 
 
+@media screen and (max-width: 768px) {
+    .titulo img{
+        width: 80%;
+        height: 250px;
+    }
+    .pokedexCanvas{
+        width: 100%;
+        height: 350px;
+        border: 2px solid #ccc;
+        float: none;
+    }
+    .pokemonInfo{
+        float: none;
+        width: 80%;
+    }
+    .info{
+        display: inline-block;
+        text-align: center;
+    }
+    .info2{
+
+        display: inline-block;
+        text-align: center;
+    }
+}
